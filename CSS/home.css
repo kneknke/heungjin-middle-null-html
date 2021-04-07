@@ -1,0 +1,432 @@
+body {
+    margin-top: auto;
+    margin-left: 100px;;
+    margin-right: 100px;;
+    margin-bottom: auto;
+    overflow-x: hidden;
+}
+
+#IT {
+    position: absolute;
+    color: #FA3B3B;
+    font-size: 20px;
+    margin-top: 130px;
+    margin-left: 230px;
+    font-family: NotoSansCJKkr-Medium;
+    text-shadow: black 0px 7px;
+}
+
+
+#null_text {
+    position: absolute;
+    font-size: 100px;
+    color: #FA3B3B;
+    margin-top: 130px;
+    margin-left: 200px;
+    font-family: NotoSans-Regular;
+    text-shadow: black 0px 13px ;
+}
+
+i {
+    position: absolute;
+}
+
+#phone {
+    margin-left: 230px;
+    margin-top: 280px;
+    color: white;
+    text-shadow: black 0px 7px;
+}
+
+#call {
+    position: absolute;
+    margin-top: 286px;
+    margin-left: 270px;
+    font-size: 25px;
+    color: white;
+    font-family: NotoSans-Regular;
+    text-shadow: black 0px 7px;
+}
+
+#marker {
+    margin-left: 231.5px;
+    margin-top: 330px;
+    color: white;
+    text-shadow: black 0px 7px;
+}
+
+#map {
+    position: absolute;
+    margin-top: 326px;
+    margin-left: 270px;
+    font-size: 25px;
+    color: white;
+    font-family: NotoSansCJKkr-Bold;
+    text-shadow: black 0px 7px;
+}
+
+.menu {
+    list-style: none;
+}
+
+#ml {
+    text-decoration: none;
+    color: black;
+    font-family: NotoSansCJKkr-Medium;
+    font-size: 24px;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.box1 {
+    background-color: black;
+    width: 3px;
+    height: 250px;
+    position: absolute;
+}
+
+.box2 {
+    background-color: white;
+    width: 1550px;
+    height: 800px;
+    position: absolute;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-left: 168px;
+    margin-top: 15px;
+    display: block;
+}
+
+.box2 p {
+    font-family: NotoSansCJKkr-Medium;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.project {
+    background-color: white;
+    width: 1550px;
+    height: 300px;
+    position: absolute;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-left: 168px;
+    margin-top: 15px;
+    display: none;
+}
+
+.project p {
+    font-family: NotoSansCJKkr-Medium;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.people_infor {
+    background-color: white;
+    width: 1550px;
+    height: 510px;
+    position: absolute;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-left: 168px;
+    margin-top: 15px;
+    display: none;
+}
+
+.people_infor p {
+    font-family: NotoSansCJKkr-Medium;
+    line-height: 20px;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.pictures {
+    background-color: white;
+    width: 1550px;
+    height: 300px;
+    position: absolute;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-left: 168px;
+    margin-top: 15px;
+    display: none;
+}
+
+.pictures p {
+    font-family: NotoSansCJKkr-Medium;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 125px;
+}
+
+
+nav {
+    width: 153px;
+    height: 260px;;
+}
+
+#hj {
+    margin-left: 700px;
+}
+
+#ml:hover {
+    margin-left: 10px
+}
+
+#ml:active {
+    color: dimgray;
+}
+
+#ml:visited {
+    margin-left: 10px;
+}
+
+#ml:link {
+}
+
+#pc_image {
+    width: 1720px;
+    display: block;
+}
+
+#android_image {
+    display: none;
+}
+
+#bars {
+    display: none;
+}
+
+#foot_a {
+    position: absolute;
+    margin-top: 1360px;
+    width: 100%;
+    text-align: center;
+    line-height: 60px;
+    color: black;
+    font-family: NotoSansCJKkr-Medium;
+    font-size: 13px;
+}
+#foot_b {
+    position: absolute;
+    margin-top: 1380px;
+    width: 100%;
+    text-align: center;
+    line-height: 60px;
+    color: black;
+    font-family: NotoSansCJKkr-Medium;
+    font-size: 13px;
+}
+
+#facebook_ready {
+    position: absolute;
+    margin-top: 1420px;
+    width: 100%;
+    text-align: center;
+}
+
+.menu_js {
+    display: block;
+}
+
+@media screen and (max-width: 980px) {
+    #pc_image {
+        display: none;
+    }
+
+    #android_image {
+        display: block;
+        height: 1739px;
+        position: absolute;
+        z-index: 1;
+    }
+    
+    body {
+        margin-bottom: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+    }
+    
+    nav {
+        position: absolute;
+        margin-top: 300px;
+        background-color: rgba(255,255,255,0.5);
+        z-index: 2;
+    }
+    
+    #ml {
+       padding-bottom: 10px; 
+    }
+    .box1 {
+        margin-left: 20px;
+        z-index: 2;
+    }
+    .box2{
+        position: absolute;
+        margin-top: 300px;
+        background-color: rgba(255,255,255,0.5);
+        border-collapse: collapse;
+        border: 0px solid black;
+        width: 920px;
+        height: 1300px;
+        z-index: 2;
+        margin-left: 20px;
+    }
+    .box2 p{
+        margin-left: 30px;
+        margin-right: 30px;
+        line-height: 45px;
+        font-size: 35px;
+    }
+    
+    #hj {
+        margin-left: 370px;
+        position: absolute;
+    }
+    
+    .project {
+        position: absolute;
+        margin-top: 300px;
+        background-color: rgba(255,255,255,0.5);
+        border-collapse: collapse;
+        border: 0px solid black;
+        width: 920px;
+        height: 380px;
+        z-index: 2;
+        margin-left: 20px;
+    }
+
+    .project p {
+        margin-left: 30px;
+        margin-right: 30px;
+        line-height: 45px;
+        font-size: 30px;
+    }
+
+    .people_infor {
+        position: absolute;
+        margin-top: 300px;
+        background-color: rgba(255,255,255,0.5);
+        border-collapse: collapse;
+        border: 0px solid black;
+        width: 920px;
+        height: 930px;
+        z-index: 2;
+        margin-left: 20px;
+    }
+
+    .people_infor p {
+        margin-left: 30px;
+        margin-right: 30px;
+        line-height: 45px;
+        font-size: 30px;
+    }
+
+    .pictures {
+        position: absolute;
+        margin-top: 300px;
+        background-color: rgba(255,255,255,0.5);
+        border-collapse: collapse;
+        border: 0px solid black;
+        width: 920px;
+        height: 380px;
+        z-index: 2;
+        margin-left: 20px;
+    }
+
+    .pictures p {
+        margin-left: 30px;
+        margin-right: 30px;
+        line-height: 120px;
+        font-size: 40px;
+    }
+    
+    #IT {
+        z-index: 3;
+        color: white;
+        margin-left:180px;
+        margin-top: 90px;
+    }
+    
+    #null_text {
+        z-index: 3;
+        color: white;
+        margin-left: 150px;
+        margin-top: 90px;
+    }
+
+    #phone {
+        z-index: 3;
+        margin-left: 550px;
+        margin-top: 120px;
+    }
+
+    #call {
+        z-index: 3;
+        margin-left: 580px;
+        margin-top: 125px;
+        color: white;
+        text-decoration: none;
+    }
+
+    #marker {
+        margin-left: 550px;
+        z-index: 3;
+        margin-top: 170px;
+    }
+
+    #map {
+        z-index: 3;
+        margin-left: 580px;
+        margin-top: 168px;
+    }
+    
+    #bars {
+        position: absolute;
+        display: block;
+        z-index: 1;
+        cursor: pointer;
+    }
+    
+    .menu_click {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        margin-top: 100px;
+        margin-left: 20px;
+        color: white;
+    }
+    #foot_a {
+        z-index: 4;
+        margin-top: 1600px;
+    }
+    #foot_b {
+        z-index: 4;
+        margin-top: 1620px;
+    }
+    #facebook_ready {
+        z-index: 4;
+        margin-top: 1660px;
+    }
+    .foot {
+        position: absolute;
+        width: 920px;
+        height: 100px;
+        z-index: 3;
+        margin-top: 1600px;
+        background-color: rgba(255,255,255,0.5);
+        margin-left: 20px;
+    }
+    
+    .menu_js {
+        display: none;
+    }
+
+}
